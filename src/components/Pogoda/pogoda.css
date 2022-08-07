@@ -1,0 +1,77 @@
+
+
+.weter__body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: 100% 100%;
+    object-fit: contain;
+}
+
+.weter__section {
+    width: 500px;
+    height: 300px;
+    padding: 30px 50px 50px 50px;
+    border-radius: 20px;
+    background-color: rgba(1, 1, 3, 0.5);
+}
+
+.form__input {
+    padding: 10px 40px 10px 10px;
+    width: 80%;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(5, 5, 5, 0.5);
+}
+
+
+.weter__wrap {
+    position: relative;
+    display: flex;
+    opacity: 10;
+}
+
+.weter {
+    margin-top: 60px;
+
+}
+
+.weter__img {
+    position: absolute;
+    top: 20px;
+    border-radius: 5px;
+    left:  240px;
+    width: 300px;
+    height: 300px;
+}
+
+.weter__name {
+    color: rgb(226, 225, 225);
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.weter__country {
+    margin-bottom: 10px;
+    color: rgb(221, 216, 216);
+    font-size: 20px;
+}
+
+.weter__temper {
+    margin-bottom: 10px;
+    color: rgb(241, 241, 241);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.weter__speed {
+    position: relative;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(228, 226, 226);
+}
